@@ -1,0 +1,77 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+h2{
+  text-align: left;
+  color: black;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+h3{
+  color: black;
+  font-family: sans-serif;
+}
+
+.index{
+  color: #AAAAAA;
+  font-weight: normal;
+}
+
+ .center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.audio_button{
+  width:30pt;
+}
+
+#images{
+    text-align:center;
+}
+
+.red_text{
+  color:  #E63B30;
+}
+
+.gray_text{
+  color:  #AAAAAA;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  font-weight: normal;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+tr[scope="white"]{
+  background-color: white;
+}
+tr[scope="gray"]{
+  background-color: #F8F8F8;
+}
+
+

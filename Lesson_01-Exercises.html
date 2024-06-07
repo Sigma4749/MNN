@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lesson 1</title> 
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h3>練習A</h3>
+        <table style="width:100%">
+            <tr>
+                <th><input class="audio_button" type="button" value="1." onclick="playA01()" /></th> 
+                <th><input class="audio_button" type="button" value="2." onclick="playA02()" /></th>
+                <th><input class="audio_button" type="button" value="3." onclick="playA03()" /></th> 
+                <th><input class="audio_button" type="button" value="4." onclick="playA04()" /></th>
+                <th><input class="audio_button" type="button" value="5." onclick="playA05()" /></th> 
+                <th><input class="audio_button" type="button" value="6." onclick="playA06()" /></th>                
+            </tr>
+        </table>
+
+        <h3>練習B</h3>
+        <table style="width:100%">
+            <tr></tr>
+            <tr>
+                <th><input class="audio_button" type="button" value="1." onclick="playB1()" /></th> 
+                <th><input class="audio_button" type="button" value="例" onclick="playB1E1()" /></th>
+                <th><input class="audio_button" type="button" value="1)" onclick="playB101()" /></th> 
+                <th><input class="audio_button" type="button" value="2)" onclick="playB102()" /></th>
+                <th><input class="audio_button" type="button" value="3)" onclick="playB103()" /></th> 
+                <th><input class="audio_button" type="button" value="4)" onclick="playB104()" /></th>                
+            </tr>
+            <tr>
+                <th><input class="audio_button" type="button" value="2." onclick="playB2()" /></th> 
+                <th><input class="audio_button" type="button" value="例" onclick="playB2E1()" /></th>
+                <th><input class="audio_button" type="button" value="1)" onclick="playB201()" /></th> 
+                <th><input class="audio_button" type="button" value="2)" onclick="playB202()" /></th>
+                <th><input class="audio_button" type="button" value="3)" onclick="playB203()" /></th> 
+                <th><input class="audio_button" type="button" value="4)" onclick="playB204()" /></th>                
+            </tr>
+        </table>
+
+
+
+        
+        
+
+    <script type="text/javascript">
+
+        var music;
+
+        function playA01(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=2.5,12');
+            music.play();}
+
+        function playA02(){
+            if(music)
+            {
+                music.pause();
+                 music.currentTime=0;
+                 delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=12.25,22');
+            music.play();}
+
+        function playA03(){
+            if(music)
+            {
+                music.pause();
+                 music.currentTime=0;
+                 delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=23,36');
+            music.play();}
+
+        function playA04(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=36,50');
+            music.play();}
+
+        function playA05(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=50,62.5');
+            music.play();}
+
+        function playA06(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=62.5,80');
+            music.play();}
+
+
+        function playB1(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=80,110');
+            music.play();}            
+
+        function playB1E1(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=83.5,89');
+            music.play();}            
+
+        function playB101(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=89,94.5');
+            music.play();}                        
+
+        function playB102(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=94.5,100');
+            music.play();}                         
+
+        function playB103(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=100,105');
+            music.play();}                                    
+
+        function playB104(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=105,110');
+            music.play();}                                                
+
+        function playB2(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=110.5,137');
+            music.play();}   
+
+        function playB2E1(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=112,117');
+            music.play();}   
+
+        function playB201(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=117,122');
+            music.play();}   
+
+        function playB202(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=122.25,127');
+            music.play();}   
+
+        function playB203(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=127,132');
+            music.play();}      
+
+        function playB204(){
+            if(music)
+            {
+                music.pause();
+                music.currentTime=0;
+                delete music;
+            }
+            music = new Audio('./audio/01F-Lesson01-exercise.mp3#t=132,137');
+            music.play();}                           
+
+    </script>
+    </body>
+</html>
